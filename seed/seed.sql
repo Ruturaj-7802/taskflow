@@ -17,4 +17,5 @@ INSERT INTO tasks (id, title, description, status, priority, project_id, assigne
     ('00000000-0000-0000-0000-000000000101', 'Write API endpoints', 'Build REST API', 'in_progress', 'high',
      '00000000-0000-0000-0000-000000000010', '00000000-0000-0000-0000-000000000001'),
     ('00000000-0000-0000-0000-000000000102', 'Write tests', 'Integration tests', 'todo', 'medium',
-     '00000000-0000-0000-0000-000000000010', NULL);
+     '00000000-0000-0000-0000-000000000010', NULL)
+ON CONFLICT DO NOTHING;

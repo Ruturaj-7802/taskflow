@@ -17,10 +17,10 @@ import (
     _ "github.com/golang-migrate/migrate/v4/source/file"
     "github.com/jackc/pgx/v5/pgxpool"
 
-    "github.com/ruturaj/taskflow/internal/handler"
-    "github.com/ruturaj/taskflow/internal/middleware"
-    "github.com/ruturaj/taskflow/internal/repository"
-    "github.com/ruturaj/taskflow/internal/service"
+    "github.com/Ruturaj-7802/taskflow/internal/handler"
+    "github.com/Ruturaj-7802/taskflow/internal/middleware"
+    "github.com/Ruturaj-7802/taskflow/internal/repository"
+    "github.com/Ruturaj-7802/taskflow/internal/service"
 )
 
 func main() {

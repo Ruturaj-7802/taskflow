@@ -7,9 +7,9 @@ import (
 
     "github.com/go-chi/chi/v5"
     "github.com/google/uuid"
-    "github.com/ruturaj/taskflow/internal/dto"
-    "github.com/ruturaj/taskflow/internal/middleware"
-    "github.com/ruturaj/taskflow/internal/service"
+    "github.com/Ruturaj-7802/taskflow/internal/dto"
+    "github.com/Ruturaj-7802/taskflow/internal/middleware"
+    "github.com/Ruturaj-7802/taskflow/internal/service"
 )
 
 type ProjectHandler struct {

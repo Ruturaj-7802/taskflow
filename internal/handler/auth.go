@@ -5,8 +5,8 @@ import (
     "errors"
     "net/http"
 
-    "github.com/ruturaj/taskflow/internal/dto"
-    "github.com/ruturaj/taskflow/internal/service"
+    "github.com/Ruturaj-7802/taskflow/internal/dto"
+    "github.com/Ruturaj-7802/taskflow/internal/service"
 )
 
 type AuthHandler struct {

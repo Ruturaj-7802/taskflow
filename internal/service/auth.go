@@ -10,9 +10,9 @@ import (
     "github.com/jackc/pgx/v5"
     "golang.org/x/crypto/bcrypt"
 
-    "github.com/ruturaj/taskflow/internal/dto"
-    "github.com/ruturaj/taskflow/internal/model"
-    "github.com/ruturaj/taskflow/internal/repository"
+    "github.com/Ruturaj-7802/taskflow/internal/dto"
+    "github.com/Ruturaj-7802/taskflow/internal/model"
+    "github.com/Ruturaj-7802/taskflow/internal/repository"
 )
 
 var (

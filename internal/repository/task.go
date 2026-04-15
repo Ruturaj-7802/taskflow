@@ -5,7 +5,7 @@ import (
     "fmt"
     "github.com/google/uuid"
     "github.com/jackc/pgx/v5/pgxpool"
-    "github.com/ruturaj/taskflow/internal/model"
+    "github.com/Ruturaj-7802/taskflow/internal/model"
 )
 
 type TaskRepository struct {

@@ -8,9 +8,9 @@ import (
     "github.com/google/uuid"
     "github.com/jackc/pgx/v5"
 
-    "github.com/ruturaj/taskflow/internal/dto"
-    "github.com/ruturaj/taskflow/internal/model"
-    "github.com/ruturaj/taskflow/internal/repository"
+    "github.com/Ruturaj-7802/taskflow/internal/dto"
+    "github.com/Ruturaj-7802/taskflow/internal/model"
+    "github.com/Ruturaj-7802/taskflow/internal/repository"
 )
 
 var (
