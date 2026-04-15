@@ -4,7 +4,7 @@
 Task management REST API. Go + chi + PostgreSQL. JWT authentication.
 Backend-only submission — includes Postman collection instead of frontend.
 
-Tech stack: Go 1.22, chi, pgx/v5, golang-migrate, PostgreSQL 16, Docker
+Tech stack: Go 1.25, chi, pgx/v5, golang-migrate, PostgreSQL 16, Docker
 
 ## 2. Architecture Decisions
 - **chi over gin**: handlers stay as standard http.HandlerFunc — portable and testable
@@ -35,8 +35,3 @@ Password: password123
 ## 6. API Reference
 
 ## 7. What I'd Do With More Time
-- Wrap project delete in a DB transaction (currently two queries — tasks then project)
-- Add refresh tokens with revocation table
-- Rate limit the login endpoint against brute force
-- Integration tests using testcontainers-go
-- Add updated_at trigger in Postgres instead of setting it in Go code
